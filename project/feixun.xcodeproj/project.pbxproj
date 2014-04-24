@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* feixunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* feixunAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* feixunViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* feixunViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* feixunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* feixunViewController.m */; };
+		A90AE54815429F6F0009E21F /* zhuyeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90AE54715429F6F0009E21F /* zhuyeViewController.xib */; };
+		A90AE54C1542A1600009E21F /* zhuyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A90AE54B1542A1600009E21F /* zhuyeViewController.m */; };
+		A94517631543A61B00C9FDA9 /* bg_login.png in Resources */ = {isa = PBXBuildFile; fileRef = A94517571543A61B00C9FDA9 /* bg_login.png */; };
+		A94517641543A61B00C9FDA9 /* bg_password.png in Resources */ = {isa = PBXBuildFile; fileRef = A94517581543A61B00C9FDA9 /* bg_password.png */; };
+		A94517651543A61B00C9FDA9 /* bg_register.png in Resources */ = {isa = PBXBuildFile; fileRef = A94517591543A61B00C9FDA9 /* bg_register.png */; };
+		A94517661543A61B00C9FDA9 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A945175A1543A61B00C9FDA9 /* bg.png */; };
+		A94517671543A61B00C9FDA9 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = A945175B1543A61B00C9FDA9 /* bg2.png */; };
+		A94517681543A61B00C9FDA9 /* button_cancle.png in Resources */ = {isa = PBXBuildFile; fileRef = A945175C1543A61B00C9FDA9 /* button_cancle.png */; };
+		A94517691543A61B00C9FDA9 /* button_comfirm.png in Resources */ = {isa = PBXBuildFile; fileRef = A945175D1543A61B00C9FDA9 /* button_comfirm.png */; };
+		A945176A1543A61B00C9FDA9 /* button_login.png in Resources */ = {isa = PBXBuildFile; fileRef = A945175E1543A61B00C9FDA9 /* button_login.png */; };
+		A945176B1543A61B00C9FDA9 /* button_register.png in Resources */ = {isa = PBXBuildFile; fileRef = A945175F1543A61B00C9FDA9 /* button_register.png */; };
+		A945176C1543A61B00C9FDA9 /* newtouch(04-23-15-52-45).GIF in Resources */ = {isa = PBXBuildFile; fileRef = A94517601543A61B00C9FDA9 /* newtouch(04-23-15-52-45).GIF */; };
+		A945176D1543A61B00C9FDA9 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = A94517611543A61B00C9FDA9 /* welcome.png */; };
+		A945176E1543A61B00C9FDA9 /* whitearrow.png in Resources */ = {isa = PBXBuildFile; fileRef = A94517621543A61B00C9FDA9 /* whitearrow.png */; };
+		A948FF361542971700ADD8CD /* zhuceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A948FF351542971700ADD8CD /* zhuceViewController.xib */; };
+		A948FF4715429D4A00ADD8CD /* zhuxiaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A948FF4615429D4A00ADD8CD /* zhuxiaoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* feixunAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feixunAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* feixunAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feixunAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* feixun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = feixun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* feixunViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = feixunViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* feixunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feixunViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* feixunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feixunViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* feixun_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feixun_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* feixun-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "feixun-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A90AE54715429F6F0009E21F /* zhuyeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = zhuyeViewController.xib; sourceTree = "<group>"; };
+		A90AE54A1542A1600009E21F /* zhuyeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhuyeViewController.h; sourceTree = "<group>"; };
+		A90AE54B1542A1600009E21F /* zhuyeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhuyeViewController.m; sourceTree = "<group>"; };
+		A94517571543A61B00C9FDA9 /* bg_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_login.png; path = pictures/bg_login.png; sourceTree = "<group>"; };
+		A94517581543A61B00C9FDA9 /* bg_password.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_password.png; path = pictures/bg_password.png; sourceTree = "<group>"; };
+		A94517591543A61B00C9FDA9 /* bg_register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_register.png; path = pictures/bg_register.png; sourceTree = "<group>"; };
+		A945175A1543A61B00C9FDA9 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = pictures/bg.png; sourceTree = "<group>"; };
+		A945175B1543A61B00C9FDA9 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg2.png; path = pictures/bg2.png; sourceTree = "<group>"; };
+		A945175C1543A61B00C9FDA9 /* button_cancle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_cancle.png; path = pictures/button_cancle.png; sourceTree = "<group>"; };
+		A945175D1543A61B00C9FDA9 /* button_comfirm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_comfirm.png; path = pictures/button_comfirm.png; sourceTree = "<group>"; };
+		A945175E1543A61B00C9FDA9 /* button_login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_login.png; path = pictures/button_login.png; sourceTree = "<group>"; };
+		A945175F1543A61B00C9FDA9 /* button_register.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_register.png; path = pictures/button_register.png; sourceTree = "<group>"; };
+		A94517601543A61B00C9FDA9 /* newtouch(04-23-15-52-45).GIF */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "newtouch(04-23-15-52-45).GIF"; path = "pictures/newtouch(04-23-15-52-45).GIF"; sourceTree = "<group>"; };
+		A94517611543A61B00C9FDA9 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome.png; path = pictures/welcome.png; sourceTree = "<group>"; };
+		A94517621543A61B00C9FDA9 /* whitearrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whitearrow.png; path = pictures/whitearrow.png; sourceTree = "<group>"; };
+		A948FF351542971700ADD8CD /* zhuceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = zhuceViewController.xib; sourceTree = "<group>"; };
+		A948FF4515429D4A00ADD8CD /* zhuxiaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhuxiaoViewController.h; sourceTree = "<group>"; };
+		A948FF4615429D4A00ADD8CD /* zhuxiaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhuxiaoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* feixunAppDelegate.h */,
+				1D3623250D0F684500981E51 /* feixunAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* feixunViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* feixunViewController.m */,
+				A948FF4515429D4A00ADD8CD /* zhuxiaoViewController.h */,
+				A948FF4615429D4A00ADD8CD /* zhuxiaoViewController.m */,
+				A90AE54A1542A1600009E21F /* zhuyeViewController.h */,
+				A90AE54B1542A1600009E21F /* zhuyeViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* feixun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				A94517561543A60600C9FDA9 /* pictures */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* feixun_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* feixunViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* feixun-Info.plist */,
+				A948FF351542971700ADD8CD /* zhuceViewController.xib */,
+				A90AE54715429F6F0009E21F /* zhuyeViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A94517561543A60600C9FDA9 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				A94517571543A61B00C9FDA9 /* bg_login.png */,
+				A94517581543A61B00C9FDA9 /* bg_password.png */,
+				A94517591543A61B00C9FDA9 /* bg_register.png */,
+				A945175A1543A61B00C9FDA9 /* bg.png */,
+				A945175B1543A61B00C9FDA9 /* bg2.png */,
+				A945175C1543A61B00C9FDA9 /* button_cancle.png */,
+				A945175D1543A61B00C9FDA9 /* button_comfirm.png */,
+				A945175E1543A61B00C9FDA9 /* button_login.png */,
+				A945175F1543A61B00C9FDA9 /* button_register.png */,
+				A94517601543A61B00C9FDA9 /* newtouch(04-23-15-52-45).GIF */,
+				A94517611543A61B00C9FDA9 /* welcome.png */,
+				A94517621543A61B00C9FDA9 /* whitearrow.png */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* feixun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "feixun" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = feixun;
+			productName = feixun;
+			productReference = 1D6058910D05DD3D006BFB54 /* feixun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "feixun" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* feixun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* feixunViewController.xib in Resources */,
+				A948FF361542971700ADD8CD /* zhuceViewController.xib in Resources */,
+				A90AE54815429F6F0009E21F /* zhuyeViewController.xib in Resources */,
+				A94517631543A61B00C9FDA9 /* bg_login.png in Resources */,
+				A94517641543A61B00C9FDA9 /* bg_password.png in Resources */,
+				A94517651543A61B00C9FDA9 /* bg_register.png in Resources */,
+				A94517661543A61B00C9FDA9 /* bg.png in Resources */,
+				A94517671543A61B00C9FDA9 /* bg2.png in Resources */,
+				A94517681543A61B00C9FDA9 /* button_cancle.png in Resources */,
+				A94517691543A61B00C9FDA9 /* button_comfirm.png in Resources */,
+				A945176A1543A61B00C9FDA9 /* button_login.png in Resources */,
+				A945176B1543A61B00C9FDA9 /* button_register.png in Resources */,
+				A945176C1543A61B00C9FDA9 /* newtouch(04-23-15-52-45).GIF in Resources */,
+				A945176D1543A61B00C9FDA9 /* welcome.png in Resources */,
+				A945176E1543A61B00C9FDA9 /* whitearrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* feixunAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* feixunViewController.m in Sources */,
+				A948FF4715429D4A00ADD8CD /* zhuxiaoViewController.m in Sources */,
+				A90AE54C1542A1600009E21F /* zhuyeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = feixun_Prefix.pch;
+				INFOPLIST_FILE = "feixun-Info.plist";
+				PRODUCT_NAME = feixun;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = feixun_Prefix.pch;
+				INFOPLIST_FILE = "feixun-Info.plist";
+				PRODUCT_NAME = feixun;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "feixun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "feixun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

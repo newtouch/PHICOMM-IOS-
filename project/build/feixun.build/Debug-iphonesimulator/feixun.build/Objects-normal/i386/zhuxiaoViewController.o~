@@ -1,0 +1,7 @@
+In file included from /Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m:9:
+/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.h:9:24: error: Cocoa/Cocoa.h: No such file or directory
+/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m: In function '-[zhuxiaoViewController didReceiveMemoryWarning]':
+/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m:15: warning: 'NSObject' may not respond to '-didReceiveMemoryWarning'
+/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m:15: warning: (Messages without a matching method signature
+/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m:15: warning: will be assumed to return 'id' and accept
+/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m:15: warning: '...' as arguments.)
