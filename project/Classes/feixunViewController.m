@@ -8,6 +8,8 @@
 
 #import "feixunViewController.h"
 
+#import"zhuceViewController.h"
+
 @implementation feixunViewController
 
 @synthesize Name = _Name;
@@ -20,7 +22,7 @@
 
 @synthesize bgRegister = _bgRegister;
 
-//@synthesize ViewLogin = _ViewLogin;
+@synthesize ViewLogin = _ViewLogin;
 
 - (void)dealloc {
 	[_Name release];
@@ -86,7 +88,15 @@
 
 }
 
-
+-(IBAction)registerNew:(id)sender
+{
+	zhuceViewController *LoginViewController = [[zhuceViewController alloc]initWithNibName:@"zhuceViewController" bundle:nil];
+	
+	LoginViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+	
+	[self presentModalViewController:LoginViewController animated:YES];
+	
+}
 
 
 @end

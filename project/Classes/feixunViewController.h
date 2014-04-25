@@ -23,7 +23,7 @@
 
 @property (nonatomic, retain) IBOutlet UITextField *PassWord;
 
-@property (nonatomic, retain) IBOutlet UITextField *ViewLogin;
+@property (nonatomic, retain) IBOutlet UIView *ViewLogin;
 
 @property (nonatomic, retain) IBOutlet UIButton *bgLogin;
 

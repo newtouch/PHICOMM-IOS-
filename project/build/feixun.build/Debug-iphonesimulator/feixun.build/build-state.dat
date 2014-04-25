@@ -1,13 +1,13 @@
 Tfeixun
 v7
 r0
-t356773833.488272
+t356858937.947647
 cCheck dependencies
 cProcessInfoPlistFile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/Info.plist feixun-Info.plist
 cCompileXIB /Users/zhu/Desktop/feixun/MainWindow.xib
 cCompileXIB /Users/zhu/Desktop/feixun/feixunViewController.xib
 cCompileXIB /Users/zhu/Desktop/feixun/zhuceViewController.xib
-cCompileXIB /Users/zhu/Desktop/feixun/zhuyeViewController.xib
+cCompileXIB /Users/zhu/Desktop/feixun/gaimiViewController.xib
 cCpResource build/Debug-iphonesimulator/feixun.app/bg_login.png pictures/bg_login.png
 cCpResource build/Debug-iphonesimulator/feixun.app/bg_password.png pictures/bg_password.png
 cCpResource build/Debug-iphonesimulator/feixun.app/bg_register.png pictures/bg_register.png
@@ -20,12 +20,46 @@ cCpResource build/Debug-iphonesimulator/feixun.app/button_register.png pictures/
 cCpResource build/Debug-iphonesimulator/feixun.app/newtouch(04-23-15-52-45).GIF pictures/newtouch(04-23-15-52-45).GIF
 cCpResource build/Debug-iphonesimulator/feixun.app/welcome.png pictures/welcome.png
 cCpResource build/Debug-iphonesimulator/feixun.app/whitearrow.png pictures/whitearrow.png
+cCpResource build/Debug-iphonesimulator/feixun.app/account_24.png pictures/account_24.png
+cCpResource build/Debug-iphonesimulator/feixun.app/bg_equipment.png pictures/bg_equipment.png
+cCpResource build/Debug-iphonesimulator/feixun.app/bg_off.png pictures/bg_off.png
+cCpResource build/Debug-iphonesimulator/feixun.app/bg_on.png pictures/bg_on.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon01_64px.png pictures/icon01_64px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon01_128px.png pictures/icon01_128px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon01_256px.png pictures/icon01_256px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon02_64px.png pictures/icon02_64px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon02_128px.png pictures/icon02_128px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon02_256px.png pictures/icon02_256px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon03_64px.png pictures/icon03_64px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon03_128px.png pictures/icon03_128px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon03_256px.png pictures/icon03_256px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon04_64px.png pictures/icon04_64px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon04_128px.png pictures/icon04_128px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon04_256px.png pictures/icon04_256px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon05_64px.png pictures/icon05_64px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon05_128px.png pictures/icon05_128px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon05_256px.png pictures/icon05_256px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon06_64px.png pictures/icon06_64px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon06_128px.png pictures/icon06_128px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/icon06_256px.png pictures/icon06_256px.png
+cCpResource build/Debug-iphonesimulator/feixun.app/lock_32.png pictures/lock_32.png
+cCpResource build/Debug-iphonesimulator/feixun.app/logo.png pictures/logo.png
+cCpResource build/Debug-iphonesimulator/feixun.app/off_list.png pictures/off_list.png
+cCpResource build/Debug-iphonesimulator/feixun.app/off.png pictures/off.png
+cCpResource build/Debug-iphonesimulator/feixun.app/on_list.png pictures/on_list.png
+cCpResource build/Debug-iphonesimulator/feixun.app/on.png pictures/on.png
+cCpResource build/Debug-iphonesimulator/feixun.app/synchronize.png pictures/synchronize.png
+cCpResource build/Debug-iphonesimulator/feixun.app/unlock_32.png pictures/unlock_32.png
+cCompileXIB /Users/zhu/Desktop/feixun/zhuyeViewController.xib
+cCompileXIB /Users/zhu/Desktop/feixun/tongbuViewController.xib
+cCompileXIB /Users/zhu/Desktop/feixun/shebeiguanliViewController.xib
+cCompileXIB /Users/zhu/Desktop/feixun/08aViewController.xib
 cProcessPCH /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch.gch feixun_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/main.o /Users/zhu/Desktop/feixun/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunAppDelegate.o /Users/zhu/Desktop/feixun/Classes/feixunAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunViewController.o /Users/zhu/Desktop/feixun/Classes/feixunViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuxiaoViewController.o /Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuyeViewController.o /Users/zhu/Desktop/feixun/Classes/zhuyeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuceViewController.o /Users/zhu/Desktop/feixun/Classes/zhuceViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/gaimiViewController.o /Users/zhu/Desktop/feixun/Classes/gaimiViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun normal i386
 cGenerateDSYMFile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app.dSYM /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun
 cTouch /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app
@@ -125,6 +159,11 @@ c0000000052FB3E98000000000000091B
 t1392197272
 s2331
 
+N/Users/zhu/Desktop/feixun/08aViewController.xib
+c000000004F94EB77000000000000AB3E
+t1335159671
+s43838
+
 N/Users/zhu/Desktop/feixun/Classes/feixunAppDelegate.h
 c000000004F925CD000000000000001D6
 t1334992080
@@ -139,27 +178,52 @@ i"feixunAppDelegate.h"
 i"feixunViewController.h"
 
 N/Users/zhu/Desktop/feixun/Classes/feixunViewController.h
-c000000004F9375F70000000000000306
-t1335064055
-s774
+c000000004F94FAEC0000000000000301
+t1335163628
+s769
 i<UIKit/UIKit.h>
 
 N/Users/zhu/Desktop/feixun/Classes/feixunViewController.m
-c000000004F9399A10000000000000897
-t1335073185
-s2199
+c000000004F95033700000000000009F3
+t1335165751
+s2547
 i"feixunViewController.h"
+i"zhuceViewController.h"
+
+N/Users/zhu/Desktop/feixun/Classes/gaimiViewController.h
+c000000004F935F0700000000000000FB
+t1335058183
+s251
+i<UIKit/UIKit.h>
+
+N/Users/zhu/Desktop/feixun/Classes/gaimiViewController.m
+c000000004F94C62500000000000004CE
+t1335150117
+s1230
+i"gaimiViewController.h"
+
+N/Users/zhu/Desktop/feixun/Classes/zhuceViewController.h
+c000000004F94FDB400000000000003B4
+t1335164340
+s948
+i<UIKit/UIKit.h>
+
+N/Users/zhu/Desktop/feixun/Classes/zhuceViewController.m
+c000000004F94FE38000000000000045B
+t1335164472
+s1115
+i"zhuceViewController.h"
 
 N/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.h
-c000000004F935F0700000000000000EA
-t1335058183
-s234
+c000000004F94FC3D00000000000003B7
+t1335163965
+s951
 i<UIKit/UIKit.h>
 
 N/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m
-c000000004F926D360000000000000236
-t1334996278
-s566
+c000000004F94FD7A0000000000000465
+t1335164282
+s1125
 i"zhuxiaoViewController.h"
 
 N/Users/zhu/Desktop/feixun/Classes/zhuyeViewController.h
@@ -180,12 +244,16 @@ t1334992080
 s19997
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app
-t1335081033
-s748
+t1335166137
+s1904
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app.dSYM
-t1335073194
+t1335165754
 s102
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/08aViewController.nib
+t1335159768
+s4031
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/CheckBoxIn.png
 t1335059220
@@ -203,89 +271,233 @@ N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/PkgInfo
 t1334992368
 s8
 
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/account_24.png
+t1335166137
+s1286
+
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/bg.png
-t1335081031
+t1335166137
 s576727
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/bg2.png
-t1335081031
+t1335166137
 s679055
 
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/bg_equipment.png
+t1335166137
+s657779
+
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/bg_login.png
-t1335081031
+t1335166137
 s629695
 
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/bg_off.png
+t1335166137
+s678335
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/bg_on.png
+t1335166137
+s560765
+
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/bg_password.png
-t1335081031
+t1335166137
 s657096
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/bg_register.png
-t1335081031
+t1335166137
 s520232
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/button_cancle.png
-t1335081031
+t1335166137
 s5823
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/button_comfirm.png
-t1335081031
+t1335166137
 s5614
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/button_login.png
-t1335081031
+t1335166137
 s5396
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/button_register.png
-t1335081031
+t1335166137
 s5228
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun
-t1335073193
-s25296
+t1335165754
+s28796
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixunViewController.nib
-t1335080653
-s2495
+t1335164642
+s2786
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixunViewController.s
+t2
+s0
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/gaimiViewController.nib
+t1335159765
+s1894
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon01_128px.png
+t1335166137
+s12747
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon01_256px.png
+t1335166137
+s32071
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon01_64px.png
+t1335166137
+s5575
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon02_128px.png
+t1335166137
+s10937
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon02_256px.png
+t1335166137
+s26348
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon02_64px.png
+t1335166137
+s4968
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon03_128px.png
+t1335166137
+s7173
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon03_256px.png
+t1335166137
+s17696
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon03_64px.png
+t1335166137
+s3225
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon04_128px.png
+t1335166137
+s15589
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon04_256px.png
+t1335166137
+s39516
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon04_64px.png
+t1335166137
+s6522
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon05_128px.png
+t1335166137
+s11438
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon05_256px.png
+t1335166137
+s27601
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon05_64px.png
+t1335166137
+s5265
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon06_128px.png
+t1335166137
+s14601
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon06_256px.png
+t1335166137
+s36021
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/icon06_64px.png
+t1335166137
+s6168
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/lock_32.png
+t1335166137
+s2251
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/logo.png
+t1335166137
+s6243
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/newtouch(04-23-15-52-45).GIF
-t1335081031
+t1335166137
 s3002
 
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/off.png
+t1335166137
+s24523
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/off_list.png
+t1335166137
+s13191
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/on.png
+t1335166137
+s25462
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/on_list.png
+t1335166137
+s13579
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/shebeiguanliViewController.nib
+t1335157034
+s1442
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/synchronize.png
+t1335166137
+s40593
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/tongbuViewController.nib
+t1335157032
+s1788
+
+N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/unlock_32.png
+t1335166137
+s2292
+
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/welcome.png
-t1335081031
+t1335166137
 s134960
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/whitearrow.png
-t1335081031
+t1335166137
 s1250
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/zhuceViewController.nib
-t1335080654
-s2574
+t1335166137
+s2990
 
 N/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/zhuyeViewController.nib
-t1335081030
-s1894
+t1335157030
+s2353
 
 N/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixun.LinkFileList
-c000000004F9280040000000000000254
-t1335001092
-s596
+c000000004F94FDED0000000000000252
+t1335164397
+s594
 
 N/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunAppDelegate.o
-t1335065244
+t1335163631
 s47804
 
 N/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunViewController.o
-t1335073192
-s41016
+t1335165754
+s43860
+
+N/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/gaimiViewController.o
+t1335157035
+s39604
 
 N/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/main.o
 t1335062214
 s6276
 
+N/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuceViewController.o
+t1335164476
+s44832
+
 N/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuxiaoViewController.o
-t1335062216
+t1335157035
 s34372
 
 N/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuyeViewController.o
@@ -293,9 +505,9 @@ t1335062217
 s39604
 
 N/Users/zhu/Desktop/feixun/feixunViewController.xib
-c000000004F93B6B60000000000006EE9
-t1335080630
-s28393
+c000000004F94FEC3000000000000767A
+t1335164611
+s30330
 
 N/Users/zhu/Desktop/feixun/feixun_Prefix.pch
 c000000004F925CD000000000000000B5
@@ -304,11 +516,21 @@ s181
 i<Foundation/Foundation.h>
 i<UIKit/UIKit.h>
 
+N/Users/zhu/Desktop/feixun/gaimiViewController.xib
+c000000004F94E7F20000000000004954
+t1335158770
+s18772
+
 N/Users/zhu/Desktop/feixun/main.m
 c000000004F925CD00000000000000165
 t1334992080
 s357
 i<UIKit/UIKit.h>
+
+N/Users/zhu/Desktop/feixun/pictures/account_24.png
+c000000005359BAD00000000000000506
+t1398389456
+s1286
 
 N/Users/zhu/Desktop/feixun/pictures/bg.png
 c000000005357704A000000000008CCD7
@@ -320,10 +542,25 @@ c000000005357708E00000000000A5C8F
 t1398239374
 s679055
 
+N/Users/zhu/Desktop/feixun/pictures/bg_equipment.png
+c000000005359BE4C00000000000A0973
+t1398390348
+s657779
+
 N/Users/zhu/Desktop/feixun/pictures/bg_login.png
 c0000000053576DCA0000000000099BBF
 t1398238666
 s629695
+
+N/Users/zhu/Desktop/feixun/pictures/bg_off.png
+c000000005359B57200000000000A59BF
+t1398388082
+s678335
+
+N/Users/zhu/Desktop/feixun/pictures/bg_on.png
+c000000005359B5300000000000088E7D
+t1398388016
+s560765
 
 N/Users/zhu/Desktop/feixun/pictures/bg_password.png
 c0000000053576F4E00000000000A06C8
@@ -355,10 +592,140 @@ c0000000053576FF2000000000000146C
 t1398239218
 s5228
 
+N/Users/zhu/Desktop/feixun/pictures/icon01_128px.png
+c00000000526FD5EA00000000000031CB
+t1383060970
+s12747
+
+N/Users/zhu/Desktop/feixun/pictures/icon01_256px.png
+c00000000526FDD180000000000007D47
+t1383062808
+s32071
+
+N/Users/zhu/Desktop/feixun/pictures/icon01_64px.png
+c00000000526FE50600000000000015C7
+t1383064838
+s5575
+
+N/Users/zhu/Desktop/feixun/pictures/icon02_128px.png
+c00000000526FD5A20000000000002AB9
+t1383060898
+s10937
+
+N/Users/zhu/Desktop/feixun/pictures/icon02_256px.png
+c00000000526FDCD400000000000066EC
+t1383062740
+s26348
+
+N/Users/zhu/Desktop/feixun/pictures/icon02_64px.png
+c00000000526FE4BA0000000000001368
+t1383064762
+s4968
+
+N/Users/zhu/Desktop/feixun/pictures/icon03_128px.png
+c00000000526FD5D20000000000001C05
+t1383060946
+s7173
+
+N/Users/zhu/Desktop/feixun/pictures/icon03_256px.png
+c00000000526FDD020000000000004520
+t1383062786
+s17696
+
+N/Users/zhu/Desktop/feixun/pictures/icon03_64px.png
+c00000000526FE4EE0000000000000C99
+t1383064814
+s3225
+
+N/Users/zhu/Desktop/feixun/pictures/icon04_128px.png
+c00000000526FD5920000000000003CE5
+t1383060882
+s15589
+
+N/Users/zhu/Desktop/feixun/pictures/icon04_256px.png
+c00000000526FDCC40000000000009A5C
+t1383062724
+s39516
+
+N/Users/zhu/Desktop/feixun/pictures/icon04_64px.png
+c00000000526FE4A8000000000000197A
+t1383064744
+s6522
+
+N/Users/zhu/Desktop/feixun/pictures/icon05_128px.png
+c00000000526FD5940000000000002CAE
+t1383060884
+s11438
+
+N/Users/zhu/Desktop/feixun/pictures/icon05_256px.png
+c00000000526FDCC80000000000006BD1
+t1383062728
+s27601
+
+N/Users/zhu/Desktop/feixun/pictures/icon05_64px.png
+c00000000526FE4AC0000000000001491
+t1383064748
+s5265
+
+N/Users/zhu/Desktop/feixun/pictures/icon06_128px.png
+c00000000526FD5E40000000000003909
+t1383060964
+s14601
+
+N/Users/zhu/Desktop/feixun/pictures/icon06_256px.png
+c00000000526FDD140000000000008CB5
+t1383062804
+s36021
+
+N/Users/zhu/Desktop/feixun/pictures/icon06_64px.png
+c00000000526FE5020000000000001818
+t1383064834
+s6168
+
+N/Users/zhu/Desktop/feixun/pictures/lock_32.png
+c000000005359B5DE00000000000008CB
+t1398388190
+s2251
+
+N/Users/zhu/Desktop/feixun/pictures/logo.png
+c00000000534E237E0000000000001863
+t1397629822
+s6243
+
 N/Users/zhu/Desktop/feixun/pictures/newtouch(04-23-15-52-45).GIF
 c00000000535781140000000000000BBA
 t1398243604
 s3002
+
+N/Users/zhu/Desktop/feixun/pictures/off.png
+c000000005359B5520000000000005FCB
+t1398388050
+s24523
+
+N/Users/zhu/Desktop/feixun/pictures/off_list.png
+c000000005359B59E0000000000003387
+t1398388126
+s13191
+
+N/Users/zhu/Desktop/feixun/pictures/on.png
+c000000005359B5400000000000006376
+t1398388032
+s25462
+
+N/Users/zhu/Desktop/feixun/pictures/on_list.png
+c000000005359B5A4000000000000350B
+t1398388132
+s13579
+
+N/Users/zhu/Desktop/feixun/pictures/synchronize.png
+c000000005359BD2A0000000000009E91
+t1398390058
+s40593
+
+N/Users/zhu/Desktop/feixun/pictures/unlock_32.png
+c000000005359B5E600000000000008F4
+t1398388198
+s2292
 
 N/Users/zhu/Desktop/feixun/pictures/welcome.png
 c00000000535771020000000000020F30
@@ -370,15 +737,25 @@ c0000000053576D9600000000000004E2
 t1398238614
 s1250
 
+N/Users/zhu/Desktop/feixun/shebeiguanliViewController.xib
+c000000004F94C5420000000000003D92
+t1335149890
+s15762
+
+N/Users/zhu/Desktop/feixun/tongbuViewController.xib
+c000000004F94C3AD00000000000044BD
+t1335149485
+s17597
+
 N/Users/zhu/Desktop/feixun/zhuceViewController.xib
-c000000004F93B69400000000000067CB
-t1335080596
-s26571
+c000000004F9504B4000000000000892B
+t1335166132
+s35115
 
 N/Users/zhu/Desktop/feixun/zhuyeViewController.xib
-c000000004F93B8330000000000004962
-t1335081011
-s18786
+c000000004F94BEB60000000000005AE2
+t1335148214
+s23266
 
 N/var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch.gch
 t1334992379
@@ -389,13 +766,22 @@ c000000004F925CD0000000000000038D
 t1334992080
 s909
 
+C<C0027:'CompileXIB feixunViewController.xib':P9:W0>
+s356778588.107321
+e356778598.016472
+r1
+xCompileXIB
+x/Users/zhu/Desktop/feixun/feixunViewController.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB feixunViewController.xib356778588#356778598#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#50"/Users/zhu/Desktop/feixun/feixunViewController.xib33777448183464040#550"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixunViewController.nib /Users/zhu/Desktop/feixun/feixunViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies356773821#356773828#0(0"0(0#1#0"8247620834010738688#0"0#
+lSLF07#2@18"Check dependencies356858935#356858935#0(0"0(0#1#0"8604298816#0"0#
 
 CCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunAppDelegate.o /Users/zhu/Desktop/feixun/Classes/feixunAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s356758044.122181
-e356758044.477515
+s356856431.595200
+e356856431.869148
 r1
 xCompileC
 xbuild/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunAppDelegate.o
@@ -404,11 +790,11 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@61"Compile /Users/zhu/Desktop/feixun/Classes/feixunAppDelegate.m356758044#356758044#0(0"0(0#0#53"/Users/zhu/Desktop/feixun/Classes/feixunAppDelegate.m8611577568#1772"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/Classes/feixunAppDelegate.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunAppDelegate.o0#
+lSLF07#2@61"Compile /Users/zhu/Desktop/feixun/Classes/feixunAppDelegate.m356856431#356856431#0(0"0(0#0#53"/Users/zhu/Desktop/feixun/Classes/feixunAppDelegate.m8615353216#1772"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/Classes/feixunAppDelegate.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunAppDelegate.o0#
 
 CCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunViewController.o /Users/zhu/Desktop/feixun/Classes/feixunViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s356765987.850644
-e356765992.826819
+s356858554.160157
+e356858554.438688
 r1
 xCompileC
 xbuild/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunViewController.o
@@ -417,11 +803,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-o/Users/zhu/Desktop/feixun/Classes/feixunViewController.m:92: warning: property 'ViewLogin' requires method '-ViewLogin' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/zhu/Desktop/feixun/Classes/feixunViewController.m:92: warning: property 'ViewLogin' requires the method 'setViewLogin:' to be defined - use @synthesize, @dynamic or provide a method implementation
-o/Users/zhu/Desktop/feixun/Classes/feixunViewController.m:92: warning: incomplete implementation of class 'feixunViewController'
-o/Users/zhu/Desktop/feixun/Classes/feixunViewController.m:92: warning: method definition for '-registerNew:' not found
-lSLF07#2@64"Compile /Users/zhu/Desktop/feixun/Classes/feixunViewController.m356765987#356765992#0(647"/Users/zhu/Desktop/feixun/Classes/feixunViewController.m:92: warning: property 'ViewLogin' requires method '-ViewLogin' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/zhu/Desktop/feixun/Classes/feixunViewController.m:92: warning: property 'ViewLogin' requires the method 'setViewLogin:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/zhu/Desktop/feixun/Classes/feixunViewController.m:92: warning: incomplete implementation of class 'feixunViewController'/Users/zhu/Desktop/feixun/Classes/feixunViewController.m:92: warning: method definition for '-registerNew:' not found4(22@126"Property 'ViewLogin' requires method '-ViewLogin' to be defined - use @synthesize, @dynamic or provide a method implementation356765990#0#197#0(6@56"/Users/zhu/Desktop/feixun/Classes/feixunViewController.m356765985#92#0#92#0#0"0(22@133"Property 'ViewLogin' requires the method 'setViewLogin:' to be defined - use @synthesize, @dynamic or provide a method implementation356765990#197#204#0(6@56"/Users/zhu/Desktop/feixun/Classes/feixunViewController.m356765985#92#0#92#0#0"0(22@57"Incomplete implementation of class 'feixunViewController'356765991#401#128#0(6@56"/Users/zhu/Desktop/feixun/Classes/feixunViewController.m356765985#92#0#92#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-registerNew:' not found356765991#529#118#0(6@56"/Users/zhu/Desktop/feixun/Classes/feixunViewController.m356765985#92#0#92#0#35"method definition for '*' not found0(0#0#56"/Users/zhu/Desktop/feixun/Classes/feixunViewController.m8611775136#1778"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/Classes/feixunViewController.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunViewController.o0#
+lSLF07#2@64"Compile /Users/zhu/Desktop/feixun/Classes/feixunViewController.m356858554#356858554#0(0"0(0#0#56"/Users/zhu/Desktop/feixun/Classes/feixunViewController.m8615847712#1778"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/Classes/feixunViewController.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixunViewController.o0#
+
+CCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/gaimiViewController.o /Users/zhu/Desktop/feixun/Classes/gaimiViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s356849835.525139
+e356849835.941529
+r1
+xCompileC
+xbuild/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/gaimiViewController.o
+x/Users/zhu/Desktop/feixun/Classes/gaimiViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/zhu/Desktop/feixun/Classes/gaimiViewController.m356849835#356849835#0(0"0(0#0#55"/Users/zhu/Desktop/feixun/Classes/gaimiViewController.m8600932736#1776"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/Classes/gaimiViewController.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/gaimiViewController.o0#
 
 CCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/main.o /Users/zhu/Desktop/feixun/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s356755014.028033
@@ -436,9 +831,22 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@40"Compile /Users/zhu/Desktop/feixun/main.m356755014#356755014#0(0"0(0#0#32"/Users/zhu/Desktop/feixun/main.m8601950528#1738"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/main.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/main.o0#
 
+CCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuceViewController.o /Users/zhu/Desktop/feixun/Classes/zhuceViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s356857275.922915
+e356857276.208747
+r1
+xCompileC
+xbuild/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuceViewController.o
+x/Users/zhu/Desktop/feixun/Classes/zhuceViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/zhu/Desktop/feixun/Classes/zhuceViewController.m356857275#356857276#0(0"0(0#0#55"/Users/zhu/Desktop/feixun/Classes/zhuceViewController.m8612977088#1776"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/Classes/zhuceViewController.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuceViewController.o0#
+
 CCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuxiaoViewController.o /Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s356755016.790662
-e356755016.952640
+s356849834.277258
+e356849835.525012
 r1
 xCompileC
 xbuild/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuxiaoViewController.o
@@ -447,7 +855,7 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@65"Compile /Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m356755016#356755016#0(0"0(0#0#57"/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m8609206656#1780"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuxiaoViewController.o0#
+lSLF07#2@65"Compile /Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m356849834#356849835#0(0"0(0#0#57"/Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m8602812256#1780"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/Classes/zhuxiaoViewController.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuxiaoViewController.o0#
 
 CCompileC build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuyeViewController.o /Users/zhu/Desktop/feixun/Classes/zhuyeViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s356755016.953044
@@ -462,6 +870,15 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@63"Compile /Users/zhu/Desktop/feixun/Classes/zhuyeViewController.m356755016#356755017#0(0"0(0#0#55"/Users/zhu/Desktop/feixun/Classes/zhuyeViewController.m8600715744#1776"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -include /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch -c /Users/zhu/Desktop/feixun/Classes/zhuyeViewController.m -o /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/zhuyeViewController.o0#
 
+CCompileXIB /Users/zhu/Desktop/feixun/08aViewController.xib
+s356852566.576021
+e356852568.796143
+r1
+xCompileXIB
+x/Users/zhu/Desktop/feixun/08aViewController.xib
+o2012-04-23 13:42:47.880 ibtool[608:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs
+lSLF07#2@32"CompileXIB 08aViewController.xib356852566#356852568#0(121"2012-04-23 13:42:47.880 ibtool[608:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs0(0#0#47"/Users/zhu/Desktop/feixun/08aViewController.xib8603845440#544"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/08aViewController.nib /Users/zhu/Desktop/feixun/08aViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
 CCompileXIB /Users/zhu/Desktop/feixun/MainWindow.xib
 s356685168.878948
 e356685171.335264
@@ -471,34 +888,61 @@ x/Users/zhu/Desktop/feixun/MainWindow.xib
 lSLF07#2@25"CompileXIB MainWindow.xib356685168#356685171#0(0"0(0#0#40"/Users/zhu/Desktop/feixun/MainWindow.xib8600641024#530"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/MainWindow.nib /Users/zhu/Desktop/feixun/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCompileXIB /Users/zhu/Desktop/feixun/feixunViewController.xib
-s356773437.104258
-e356773453.916019
+s356857440.487098
+e356857442.218210
 r1
 xCompileXIB
 x/Users/zhu/Desktop/feixun/feixunViewController.xib
+lSLF07#2@35"CompileXIB feixunViewController.xib356857440#356857442#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/feixunViewController.xib8603714720#550"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixunViewController.nib /Users/zhu/Desktop/feixun/feixunViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/zhu/Desktop/feixun/gaimiViewController.xib
+s356852550.017725
+e356852565.382744
+r1
+xCompileXIB
+x/Users/zhu/Desktop/feixun/gaimiViewController.xib
+o2012-04-23 13:42:36.211 ibtool[564:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs
+o/* com.apple.ibtool.document.notices */
+o/Users/zhu/Desktop/feixun/gaimiViewController.xib:5: note: This view is clipping its content.
+o/Users/zhu/Desktop/feixun/gaimiViewController.xib:6: note: This view is clipping its content.
+lSLF07#2@34"CompileXIB gaimiViewController.xib356852550#356852565#0(349"2012-04-23 13:42:36.211 ibtool[564:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs/* com.apple.ibtool.document.notices *//Users/zhu/Desktop/feixun/gaimiViewController.xib:5: note: This view is clipping its content./Users/zhu/Desktop/feixun/gaimiViewController.xib:6: note: This view is clipping its content.2(13@34"This view is clipping its content.356852565#18446744073709551615#0#0(6@49"/Users/zhu/Desktop/feixun/gaimiViewController.xib356851570#5#0#5#0#0"0(13@34"This view is clipping its content.356852565#18446744073709551615#0#0(6@49"/Users/zhu/Desktop/feixun/gaimiViewController.xib356851570#6#0#6#0#0"0(0#0#49"/Users/zhu/Desktop/feixun/gaimiViewController.xib8605910080#548"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/gaimiViewController.nib /Users/zhu/Desktop/feixun/gaimiViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/zhu/Desktop/feixun/shebeiguanliViewController.xib
+s356849832.629502
+e356849834.276315
+r1
+xCompileXIB
+x/Users/zhu/Desktop/feixun/shebeiguanliViewController.xib
+o2012-04-23 12:57:13.832 ibtool[240:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs
 oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@35"CompileXIB feixunViewController.xib356773437#356773453#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#50"/Users/zhu/Desktop/feixun/feixunViewController.xib33777448183464040#550"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixunViewController.nib /Users/zhu/Desktop/feixun/feixunViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@41"CompileXIB shebeiguanliViewController.xib356849832#356849834#0(205"2012-04-23 12:57:13.832 ibtool[240:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbsCouldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#56"/Users/zhu/Desktop/feixun/shebeiguanliViewController.xib8603467168#562"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/shebeiguanliViewController.nib /Users/zhu/Desktop/feixun/shebeiguanliViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/zhu/Desktop/feixun/tongbuViewController.xib
+s356849830.639577
+e356849832.629339
+r1
+xCompileXIB
+x/Users/zhu/Desktop/feixun/tongbuViewController.xib
+o2012-04-23 12:57:11.855 ibtool[238:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbs
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@35"CompileXIB tongbuViewController.xib356849830#356849832#0(205"2012-04-23 12:57:11.855 ibtool[238:607] __CFServiceControllerBeginPBSLoadForLocalizations timed out while talking to pbsCouldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#50"/Users/zhu/Desktop/feixun/tongbuViewController.xib8603778432#550"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/tongbuViewController.nib /Users/zhu/Desktop/feixun/tongbuViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCompileXIB /Users/zhu/Desktop/feixun/zhuceViewController.xib
-s356773453.916282
-e356773454.813964
+s356858935.717454
+e356858937.441073
 r1
 xCompileXIB
 x/Users/zhu/Desktop/feixun/zhuceViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@34"CompileXIB zhuceViewController.xib356773453#356773454#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#49"/Users/zhu/Desktop/feixun/zhuceViewController.xib8603301216#548"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/zhuceViewController.nib /Users/zhu/Desktop/feixun/zhuceViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@34"CompileXIB zhuceViewController.xib356858935#356858937#0(0"0(0#0#49"/Users/zhu/Desktop/feixun/zhuceViewController.xib8600011328#548"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/zhuceViewController.nib /Users/zhu/Desktop/feixun/zhuceViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCompileXIB /Users/zhu/Desktop/feixun/zhuyeViewController.xib
-s356773828.154206
-e356773831.651870
+s356849829.124101
+e356849830.639402
 r1
 xCompileXIB
 x/Users/zhu/Desktop/feixun/zhuyeViewController.xib
 oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-o/* com.apple.ibtool.document.notices */
-o/Users/zhu/Desktop/feixun/zhuyeViewController.xib:6: note: This view is clipping its content.
-o/Users/zhu/Desktop/feixun/zhuyeViewController.xib:5: note: This view is clipping its content.
-lSLF07#2@34"CompileXIB zhuyeViewController.xib356773828#356773831#0(312"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)/* com.apple.ibtool.document.notices *//Users/zhu/Desktop/feixun/zhuyeViewController.xib:6: note: This view is clipping its content./Users/zhu/Desktop/feixun/zhuyeViewController.xib:5: note: This view is clipping its content.2(13@34"This view is clipping its content.356773831#18446744073709551615#0#0(6@49"/Users/zhu/Desktop/feixun/zhuyeViewController.xib356773811#6#0#6#0#0"0(13@34"This view is clipping its content.356773831#18446744073709551615#0#0(6@49"/Users/zhu/Desktop/feixun/zhuyeViewController.xib356773811#5#0#5#0#0"0(0#0#49"/Users/zhu/Desktop/feixun/zhuyeViewController.xib8603432544#548"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/zhuyeViewController.nib /Users/zhu/Desktop/feixun/zhuyeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+lSLF07#2@34"CompileXIB zhuyeViewController.xib356849829#356849830#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#49"/Users/zhu/Desktop/feixun/zhuyeViewController.xib8601161184#548"    cd /Users/zhu/Desktop/feixun    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/zhuyeViewController.nib /Users/zhu/Desktop/feixun/zhuyeViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/CheckBoxIn.png ../backup/Office/picture/CheckBoxIn.png
 s356752020.830749
@@ -508,6 +952,15 @@ xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/CheckBoxIn.png
 x../backup/Office/picture/CheckBoxIn.png
 lSLF07#2@44"Copy ../backup/Office/picture/CheckBoxIn.png356752020#356752020#0(0"0(0#0#65"/Users/zhu/Desktop/feixun/../backup/Office/picture/CheckBoxIn.png8605584992#443"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../backup/Office/picture/CheckBoxIn.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/account_24.png pictures/account_24.png
+s356858937.496049
+e356858937.606748
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/account_24.png
+xpictures/account_24.png
+lSLF07#2@28"Copy pictures/account_24.png356858937#356858937#0(0"0(0#0#49"/Users/zhu/Desktop/feixun/pictures/account_24.png8603808960#427"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/account_24.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg.png ../a/bg.png
 s356754466.587967
@@ -519,13 +972,13 @@ x../a/bg.png
 lSLF07#2@16"Copy ../a/bg.png356754466#356754466#0(0"0(0#0#37"/Users/zhu/Desktop/feixun/../a/bg.png8609970016#415"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/bg.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg.png pictures/bg.png
-s356773831.658519
-e356773831.856838
+s356858937.447101
+e356858937.929923
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/bg.png
 xpictures/bg.png
-lSLF07#2@20"Copy pictures/bg.png356773831#356773833#0(0"0(0#0#41"/Users/zhu/Desktop/feixun/pictures/bg.png8604777440#419"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@20"Copy pictures/bg.png356858937#356858937#0(0"0(0#0#41"/Users/zhu/Desktop/feixun/pictures/bg.png8604833984#419"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg2.png ../a/bg2.png
 s356754466.598988
@@ -537,13 +990,22 @@ x../a/bg2.png
 lSLF07#2@17"Copy ../a/bg2.png356754466#356754466#0(0"0(0#0#38"/Users/zhu/Desktop/feixun/../a/bg2.png8610239936#416"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/bg2.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg2.png pictures/bg2.png
-s356773831.660467
-e356773832.406915
+s356858937.449247
+e356858937.508479
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/bg2.png
 xpictures/bg2.png
-lSLF07#2@21"Copy pictures/bg2.png356773831#356773833#0(0"0(0#0#42"/Users/zhu/Desktop/feixun/pictures/bg2.png8604703648#420"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg2.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@21"Copy pictures/bg2.png356858937#356858937#0(0"0(0#0#42"/Users/zhu/Desktop/feixun/pictures/bg2.png8604680096#420"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg2.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/bg_equipment.png pictures/bg_equipment.png
+s356858937.508600
+e356858937.616516
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/bg_equipment.png
+xpictures/bg_equipment.png
+lSLF07#2@30"Copy pictures/bg_equipment.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/bg_equipment.png8602445664#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg_equipment.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg_login.png ../a/bg_login.png
 s356754466.526445
@@ -555,13 +1017,31 @@ x../a/bg_login.png
 lSLF07#2@22"Copy ../a/bg_login.png356754466#356754466#0(0"0(0#0#43"/Users/zhu/Desktop/feixun/../a/bg_login.png8610331872#421"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/bg_login.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg_login.png pictures/bg_login.png
-s356773831.652081
-e356773832.211939
+s356858937.441430
+e356858937.479615
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/bg_login.png
 xpictures/bg_login.png
-lSLF07#2@26"Copy pictures/bg_login.png356773831#356773833#0(0"0(0#0#47"/Users/zhu/Desktop/feixun/pictures/bg_login.png8602747936#425"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg_login.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@26"Copy pictures/bg_login.png356858937#356858937#0(0"0(0#0#47"/Users/zhu/Desktop/feixun/pictures/bg_login.png8602431616#425"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg_login.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/bg_off.png pictures/bg_off.png
+s356858937.515353
+e356858937.660835
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/bg_off.png
+xpictures/bg_off.png
+lSLF07#2@24"Copy pictures/bg_off.png356858937#356858937#0(0"0(0#0#45"/Users/zhu/Desktop/feixun/pictures/bg_off.png8602160000#423"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg_off.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/bg_on.png pictures/bg_on.png
+s356858937.521517
+e356858937.634110
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/bg_on.png
+xpictures/bg_on.png
+lSLF07#2@23"Copy pictures/bg_on.png356858937#356858937#0(0"0(0#0#44"/Users/zhu/Desktop/feixun/pictures/bg_on.png8601730688#422"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg_on.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg_password.png ../a/bg_password.png
 s356754466.571723
@@ -573,13 +1053,13 @@ x../a/bg_password.png
 lSLF07#2@25"Copy ../a/bg_password.png356754466#356754466#0(0"0(0#0#46"/Users/zhu/Desktop/feixun/../a/bg_password.png8610349408#424"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/bg_password.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg_password.png pictures/bg_password.png
-s356773831.653739
-e356773831.986881
+s356858937.443242
+e356858937.487226
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/bg_password.png
 xpictures/bg_password.png
-lSLF07#2@29"Copy pictures/bg_password.png356773831#356773833#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/bg_password.png8602602368#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg_password.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@29"Copy pictures/bg_password.png356858937#356858937#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/bg_password.png8599808928#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg_password.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg_register.png ../a/bg_register.png
 s356754466.574392
@@ -591,13 +1071,13 @@ x../a/bg_register.png
 lSLF07#2@25"Copy ../a/bg_register.png356754466#356754466#0(0"0(0#0#46"/Users/zhu/Desktop/feixun/../a/bg_register.png8610800160#424"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/bg_register.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/bg_register.png pictures/bg_register.png
-s356773831.656458
-e356773831.852707
+s356858937.445092
+e356858937.495925
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/bg_register.png
 xpictures/bg_register.png
-lSLF07#2@29"Copy pictures/bg_register.png356773831#356773833#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/bg_register.png8600592128#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg_register.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@29"Copy pictures/bg_register.png356858937#356858937#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/bg_register.png8604864800#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/bg_register.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/button_cancle.png ../a/button_cancle.png
 s356754466.610912
@@ -609,13 +1089,13 @@ x../a/button_cancle.png
 lSLF07#2@27"Copy ../a/button_cancle.png356754466#356754466#0(0"0(0#0#48"/Users/zhu/Desktop/feixun/../a/button_cancle.png8610385184#426"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/button_cancle.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/button_cancle.png pictures/button_cancle.png
-s356773831.662447
-e356773831.826562
+s356858937.451098
+e356858937.515239
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/button_cancle.png
 xpictures/button_cancle.png
-lSLF07#2@31"Copy pictures/button_cancle.png356773831#356773833#0(0"0(0#0#52"/Users/zhu/Desktop/feixun/pictures/button_cancle.png8603348000#430"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/button_cancle.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@31"Copy pictures/button_cancle.png356858937#356858937#0(0"0(0#0#52"/Users/zhu/Desktop/feixun/pictures/button_cancle.png8602280320#430"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/button_cancle.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/button_comfirm.png ../a/button_comfirm.png
 s356754466.623641
@@ -627,13 +1107,13 @@ x../a/button_comfirm.png
 lSLF07#2@28"Copy ../a/button_comfirm.png356754466#356754466#0(0"0(0#0#49"/Users/zhu/Desktop/feixun/../a/button_comfirm.png8610182816#427"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/button_comfirm.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/button_comfirm.png pictures/button_comfirm.png
-s356773831.664476
-e356773831.803631
+s356858937.452973
+e356858937.521405
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/button_comfirm.png
 xpictures/button_comfirm.png
-lSLF07#2@32"Copy pictures/button_comfirm.png356773831#356773833#0(0"0(0#0#53"/Users/zhu/Desktop/feixun/pictures/button_comfirm.png8603013600#431"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/button_comfirm.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@32"Copy pictures/button_comfirm.png356858937#356858937#0(0"0(0#0#53"/Users/zhu/Desktop/feixun/pictures/button_comfirm.png8601348416#431"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/button_comfirm.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/button_login.png ../a/button_login.png
 s356754466.632319
@@ -645,13 +1125,13 @@ x../a/button_login.png
 lSLF07#2@26"Copy ../a/button_login.png356754466#356754466#0(0"0(0#0#47"/Users/zhu/Desktop/feixun/../a/button_login.png8610727424#425"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/button_login.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/button_login.png pictures/button_login.png
-s356773831.666469
-e356773831.784404
+s356858937.455553
+e356858937.528130
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/button_login.png
 xpictures/button_login.png
-lSLF07#2@30"Copy pictures/button_login.png356773831#356773833#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/button_login.png8602869024#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/button_login.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@30"Copy pictures/button_login.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/button_login.png8598095712#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/button_login.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/button_register.png ../a/button_register.png
 s356754466.640476
@@ -663,13 +1143,193 @@ x../a/button_register.png
 lSLF07#2@29"Copy ../a/button_register.png356754466#356754466#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/../a/button_register.png8609233984#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/button_register.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/button_register.png pictures/button_register.png
-s356773831.668494
-e356773831.784575
+s356858937.458187
+e356858937.539579
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/button_register.png
 xpictures/button_register.png
-lSLF07#2@33"Copy pictures/button_register.png356773831#356773833#0(0"0(0#0#54"/Users/zhu/Desktop/feixun/pictures/button_register.png8600996416#432"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/button_register.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@33"Copy pictures/button_register.png356858937#356858937#0(0"0(0#0#54"/Users/zhu/Desktop/feixun/pictures/button_register.png8608309536#432"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/button_register.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon01_128px.png pictures/icon01_128px.png
+s356858937.539683
+e356858937.683292
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon01_128px.png
+xpictures/icon01_128px.png
+lSLF07#2@30"Copy pictures/icon01_128px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon01_128px.png8600371232#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon01_128px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon01_256px.png pictures/icon01_256px.png
+s356858937.565405
+e356858937.689553
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon01_256px.png
+xpictures/icon01_256px.png
+lSLF07#2@30"Copy pictures/icon01_256px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon01_256px.png8599695872#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon01_256px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon01_64px.png pictures/icon01_64px.png
+s356858937.528243
+e356858937.679835
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon01_64px.png
+xpictures/icon01_64px.png
+lSLF07#2@29"Copy pictures/icon01_64px.png356858937#356858937#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/icon01_64px.png8601237472#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon01_64px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon02_128px.png pictures/icon02_128px.png
+s356858937.600294
+e356858937.743998
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon02_128px.png
+xpictures/icon02_128px.png
+lSLF07#2@30"Copy pictures/icon02_128px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon02_128px.png8601118912#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon02_128px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon02_256px.png pictures/icon02_256px.png
+s356858937.606914
+e356858937.929600
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon02_256px.png
+xpictures/icon02_256px.png
+lSLF07#2@30"Copy pictures/icon02_256px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon02_256px.png8600892896#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon02_256px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon02_64px.png pictures/icon02_64px.png
+s356858937.588210
+e356858937.710047
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon02_64px.png
+xpictures/icon02_64px.png
+lSLF07#2@29"Copy pictures/icon02_64px.png356858937#356858937#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/icon02_64px.png8602021568#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon02_64px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon03_128px.png pictures/icon03_128px.png
+s356858937.634458
+e356858937.764493
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon03_128px.png
+xpictures/icon03_128px.png
+lSLF07#2@30"Copy pictures/icon03_128px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon03_128px.png8599416896#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon03_128px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon03_256px.png pictures/icon03_256px.png
+s356858937.660954
+e356858937.770270
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon03_256px.png
+xpictures/icon03_256px.png
+lSLF07#2@30"Copy pictures/icon03_256px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon03_256px.png8603718720#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon03_256px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon03_64px.png pictures/icon03_64px.png
+s356858937.616643
+e356858937.757654
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon03_64px.png
+xpictures/icon03_64px.png
+lSLF07#2@29"Copy pictures/icon03_64px.png356858937#356858937#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/icon03_64px.png8602010880#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon03_64px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon04_128px.png pictures/icon04_128px.png
+s356858937.683391
+e356858937.786412
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon04_128px.png
+xpictures/icon04_128px.png
+lSLF07#2@30"Copy pictures/icon04_128px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon04_128px.png8607974848#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon04_128px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon04_256px.png pictures/icon04_256px.png
+s356858937.689665
+e356858937.794457
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon04_256px.png
+xpictures/icon04_256px.png
+lSLF07#2@30"Copy pictures/icon04_256px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon04_256px.png8601056608#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon04_256px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon04_64px.png pictures/icon04_64px.png
+s356858937.679967
+e356858937.778711
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon04_64px.png
+xpictures/icon04_64px.png
+lSLF07#2@29"Copy pictures/icon04_64px.png356858937#356858937#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/icon04_64px.png8601317952#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon04_64px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon05_128px.png pictures/icon05_128px.png
+s356858937.744110
+e356858937.809403
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon05_128px.png
+xpictures/icon05_128px.png
+lSLF07#2@30"Copy pictures/icon05_128px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon05_128px.png8604252704#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon05_128px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon05_256px.png pictures/icon05_256px.png
+s356858937.757837
+e356858937.816723
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon05_256px.png
+xpictures/icon05_256px.png
+lSLF07#2@30"Copy pictures/icon05_256px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon05_256px.png8605217728#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon05_256px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon05_64px.png pictures/icon05_64px.png
+s356858937.710162
+e356858937.802172
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon05_64px.png
+xpictures/icon05_64px.png
+lSLF07#2@29"Copy pictures/icon05_64px.png356858937#356858937#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/icon05_64px.png8601527680#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon05_64px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon06_128px.png pictures/icon06_128px.png
+s356858937.770384
+e356858937.831441
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon06_128px.png
+xpictures/icon06_128px.png
+lSLF07#2@30"Copy pictures/icon06_128px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon06_128px.png8604538240#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon06_128px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon06_256px.png pictures/icon06_256px.png
+s356858937.778883
+e356858937.838725
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon06_256px.png
+xpictures/icon06_256px.png
+lSLF07#2@30"Copy pictures/icon06_256px.png356858937#356858937#0(0"0(0#0#51"/Users/zhu/Desktop/feixun/pictures/icon06_256px.png8604437568#429"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon06_256px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/icon06_64px.png pictures/icon06_64px.png
+s356858937.764604
+e356858937.824077
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/icon06_64px.png
+xpictures/icon06_64px.png
+lSLF07#2@29"Copy pictures/icon06_64px.png356858937#356858937#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/icon06_64px.png8604790528#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/icon06_64px.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/lock_32.png pictures/lock_32.png
+s356858937.786528
+e356858937.848051
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/lock_32.png
+xpictures/lock_32.png
+lSLF07#2@25"Copy pictures/lock_32.png356858937#356858937#0(0"0(0#0#46"/Users/zhu/Desktop/feixun/pictures/lock_32.png8604347744#424"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/lock_32.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/logo.png pictures/logo.png
+s356858937.794576
+e356858937.854668
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/logo.png
+xpictures/logo.png
+lSLF07#2@22"Copy pictures/logo.png356858937#356858937#0(0"0(0#0#43"/Users/zhu/Desktop/feixun/pictures/logo.png8604299104#421"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/logo.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/newtouch(04-23-15-52-45).GIF ../a/newtouch(04-23-15-52-45).GIF
 s356754466.648821
@@ -681,13 +1341,67 @@ x../a/newtouch(04-23-15-52-45).GIF
 lSLF07#2@38"Copy ../a/newtouch(04-23-15-52-45).GIF356754466#356754466#0(0"0(0#0#59"/Users/zhu/Desktop/feixun/../a/newtouch(04-23-15-52-45).GIF8609312544#437"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/newtouch(04-23-15-52-45).GIF /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/newtouch(04-23-15-52-45).GIF pictures/newtouch(04-23-15-52-45).GIF
-s356773831.670466
-e356773831.781054
+s356858937.460093
+e356858937.565297
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/newtouch(04-23-15-52-45).GIF
 xpictures/newtouch(04-23-15-52-45).GIF
-lSLF07#2@42"Copy pictures/newtouch(04-23-15-52-45).GIF356773831#356773833#0(0"0(0#0#63"/Users/zhu/Desktop/feixun/pictures/newtouch(04-23-15-52-45).GIF8602850112#441"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/newtouch(04-23-15-52-45).GIF /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@42"Copy pictures/newtouch(04-23-15-52-45).GIF356858937#356858937#0(0"0(0#0#63"/Users/zhu/Desktop/feixun/pictures/newtouch(04-23-15-52-45).GIF8604797184#441"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/newtouch(04-23-15-52-45).GIF /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/off.png pictures/off.png
+s356858937.809513
+e356858937.868011
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/off.png
+xpictures/off.png
+lSLF07#2@21"Copy pictures/off.png356858937#356858937#0(0"0(0#0#42"/Users/zhu/Desktop/feixun/pictures/off.png8604075200#420"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/off.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/off_list.png pictures/off_list.png
+s356858937.802295
+e356858937.861603
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/off_list.png
+xpictures/off_list.png
+lSLF07#2@26"Copy pictures/off_list.png356858937#356858937#0(0"0(0#0#47"/Users/zhu/Desktop/feixun/pictures/off_list.png8604199072#425"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/off_list.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/on.png pictures/on.png
+s356858937.824191
+e356858937.930580
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/on.png
+xpictures/on.png
+lSLF07#2@20"Copy pictures/on.png356858937#356858937#0(0"0(0#0#41"/Users/zhu/Desktop/feixun/pictures/on.png8603815776#419"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/on.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/on_list.png pictures/on_list.png
+s356858937.816993
+e356858937.874988
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/on_list.png
+xpictures/on_list.png
+lSLF07#2@25"Copy pictures/on_list.png356858937#356858937#0(0"0(0#0#46"/Users/zhu/Desktop/feixun/pictures/on_list.png8603971392#424"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/on_list.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/synchronize.png pictures/synchronize.png
+s356858937.831559
+e356858937.930204
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/synchronize.png
+xpictures/synchronize.png
+lSLF07#2@29"Copy pictures/synchronize.png356858937#356858937#0(0"0(0#0#50"/Users/zhu/Desktop/feixun/pictures/synchronize.png8603702624#428"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/synchronize.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+
+CCpResource build/Debug-iphonesimulator/feixun.app/unlock_32.png pictures/unlock_32.png
+s356858937.838901
+e356858937.930932
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/feixun.app/unlock_32.png
+xpictures/unlock_32.png
+lSLF07#2@27"Copy pictures/unlock_32.png356858937#356858937#0(0"0(0#0#48"/Users/zhu/Desktop/feixun/pictures/unlock_32.png8602514976#426"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/unlock_32.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/welcome.png ../a/welcome.png
 s356754466.658691
@@ -699,13 +1413,13 @@ x../a/welcome.png
 lSLF07#2@21"Copy ../a/welcome.png356754466#356754466#0(0"0(0#0#42"/Users/zhu/Desktop/feixun/../a/welcome.png8609657312#420"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/welcome.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/welcome.png pictures/welcome.png
-s356773831.781203
-e356773831.804917
+s356858937.479744
+e356858937.588104
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/welcome.png
 xpictures/welcome.png
-lSLF07#2@25"Copy pictures/welcome.png356773831#356773833#0(0"0(0#0#46"/Users/zhu/Desktop/feixun/pictures/welcome.png8601384352#424"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/welcome.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@25"Copy pictures/welcome.png356858937#356858937#0(0"0(0#0#46"/Users/zhu/Desktop/feixun/pictures/welcome.png8604333440#424"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/welcome.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/whitearrow.png ../a/whitearrow.png
 s356754466.666939
@@ -717,32 +1431,32 @@ x../a/whitearrow.png
 lSLF07#2@24"Copy ../a/whitearrow.png356754466#356754466#0(0"0(0#0#45"/Users/zhu/Desktop/feixun/../a/whitearrow.png8609471648#423"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/../a/whitearrow.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CCpResource build/Debug-iphonesimulator/feixun.app/whitearrow.png pictures/whitearrow.png
-s356773831.784663
-e356773831.798617
+s356858937.487347
+e356858937.600175
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/feixun.app/whitearrow.png
 xpictures/whitearrow.png
-lSLF07#2@28"Copy pictures/whitearrow.png356773831#356773833#0(0"0(0#0#49"/Users/zhu/Desktop/feixun/pictures/whitearrow.png8603183456#427"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/whitearrow.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@28"Copy pictures/whitearrow.png356858937#356858937#0(0"0(0#0#49"/Users/zhu/Desktop/feixun/pictures/whitearrow.png8604073952#427"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/zhu/Desktop/feixun/pictures/whitearrow.png /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
 CGenerateDSYMFile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app.dSYM /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun
-s356765993.956185
-e356765994.185685
+s356858554.679942
+e356858554.867795
 r1
 xGenerateDSYMFile
 x/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app.dSYM
 x/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/feixun.app.dSYM build/Debug-iphonesimulator/feixun.app/feixun356765993#356765994#0(0"0(0#0#71"/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun8611642560#341"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun -o /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app.dSYM0#
+lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/feixun.app.dSYM build/Debug-iphonesimulator/feixun.app/feixun356858554#356858554#0(0"0(0#0#71"/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun8616346912#341"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun -o /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app.dSYM0#
 
 CLd /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun normal i386
-s356765992.827341
-e356765993.956063
+s356858554.439015
+e356858554.679822
 r1
 xLd
 x/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun
 xnormal
 xi386
-lSLF07#2@76"Link /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun356765992#356765993#0(0"0(0#0#0"8599599296#830"    cd /Users/zhu/Desktop/feixun    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -filelist /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixun.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun0#
+lSLF07#2@76"Link /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun356858554#356858554#0(0"0(0#0#0"8616708960#830"    cd /Users/zhu/Desktop/feixun    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -filelist /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/Objects-normal/i386/feixun.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/feixun0#
 
 CProcessInfoPlistFile /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app/Info.plist feixun-Info.plist
 s356685168.866860
@@ -767,10 +1481,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@28"Precompile feixun_Prefix.pch356685176#356685180#0(0"0(0#0#43"/Users/zhu/Desktop/feixun/feixun_Prefix.pch8606784992#1644"    cd /Users/zhu/Desktop/feixun    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-generated-files.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-own-target-headers.hmap -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-all-target-headers.hmap -iquote /Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/feixun-project-headers.hmap -F/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator -I/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/include -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources/i386 -I/Users/zhu/Desktop/feixun/build/feixun.build/Debug-iphonesimulator/feixun.build/DerivedSources -c /Users/zhu/Desktop/feixun/feixun_Prefix.pch -o /var/folders/Ew/EwKG6BmVGeGev3P6t8ubCU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/feixun_Prefix-cfhlfdazarxhfadahvugjftfnfvb/feixun_Prefix.pch.gch0#
 
 CTouch /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app
-s356773832.408020
-e356773833.488055
+s356858937.931701
+e356858937.947534
 r1
 xTouch
 x/Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app
-lSLF07#2@70"Touch /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app356773832#356773833#0(0"0(0#0#0"8599211616#251"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
+lSLF07#2@70"Touch /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app356858937#356858937#0(0"0(0#0#0"8601900480#251"    cd /Users/zhu/Desktop/feixun    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/zhu/Desktop/feixun/build/Debug-iphonesimulator/feixun.app0#
 
